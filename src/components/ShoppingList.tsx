@@ -510,14 +510,14 @@ export const ShoppingListApp = () => {
                             />
                         ) : (
                             <div 
-                                className="flex items-center gap-1"
+                                className="flex items-center gap-1 min-w-0"
                                 {...(index === 0 ? { 'data-tutorial': 'list-item' } : {})}
                             >
                                 {/* Main list button */}
                                 <button
                                     onClick={() => isMobile ? handleSelectList(list.id) : setActiveListId(list.id)}
                                     className={clsx(
-                                        "flex-1 flex items-center gap-3 px-3 py-2.5 rounded-lg text-left",
+                                        "flex-1 min-w-0 flex items-center gap-3 px-3 py-2.5 rounded-lg text-left",
                                         "transition-all duration-150",
                                         list.id === activeListId
                                             ? "bg-arc-orange text-text-inverse font-medium"
@@ -525,7 +525,7 @@ export const ShoppingListApp = () => {
                                     )}
                                 >
                                     <ListTodo size={16} className="shrink-0" />
-                                    <span className="flex-1 truncate text-sm">{list.name}</span>
+                                    <span className="min-w-0 flex-1 truncate text-sm">{list.name}</span>
                                     {/* Item count badge */}
                                     <span className={clsx(
                                         "px-1.5 py-0.5 rounded text-[10px] font-mono font-bold min-w-[1.25rem] text-center",
