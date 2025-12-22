@@ -1,0 +1,46 @@
+{
+    "name": "Medical Lab",
+    "description": "",
+    "items": [
+        {
+            "id": 172,
+            "quantity": 50,
+            "phase": 1
+        },
+        {
+            "id": 24,
+            "quantity": 6,
+            "phase": 1
+        },
+        {
+            "id": 112,
+            "quantity": 2,
+            "phase": 2
+        },
+        {
+            "id": 141,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 448,
+            "quantity": 8,
+            "phase": 2
+        },
+        {
+            "id": 364,
+            "quantity": 3,
+            "phase": 3
+        },
+        {
+            "id": 14,
+            "quantity": 8,
+            "phase": 3
+        },
+        {
+            "id": 427,
+            "quantity": 5,
+            "phase": 3
+        }
+    ]
+}

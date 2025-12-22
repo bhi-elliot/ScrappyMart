@@ -1,0 +1,47 @@
+{
+    "name": "Explosive Bench",
+    "description": "",
+    "Category": "WORKBENCH",
+    "items": [
+        {
+            "id": 354,
+            "quantity": 50,
+            "phase": 1
+        },
+        {
+            "id": 24,
+            "quantity": 6,
+            "phase": 1
+        },
+        {
+            "id": 429,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 113,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 312,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 247,
+            "quantity": 3,
+            "phase": 3
+        },
+        {
+            "id": 152,
+            "quantity": 5,
+            "phase": 3
+        },
+        {
+            "id": 347,
+            "quantity": 3,
+            "phase": 3
+        }
+    ]
+}

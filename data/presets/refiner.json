@@ -1,0 +1,47 @@
+{
+    "name": "Refinder",
+    "description": "",
+    "Category": "WORKBENCH",
+    "items": [
+        {
+            "id": 281,
+            "quantity": 60,
+            "phase": 1
+        },
+        {
+            "id": 30,
+            "quantity": 5,
+            "phase": 1
+        },
+        {
+            "id": 449,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 28,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 181,
+            "quantity": 8,
+            "phase": 2
+        },
+        {
+            "id": 286,
+            "quantity": 3,
+            "phase": 3
+        },
+        {
+            "id": 286,
+            "quantity": 24,
+            "phase": 3
+        },
+        {
+            "id": 68,
+            "quantity": 6,
+            "phase": 3
+        }
+    ]
+}

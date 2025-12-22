@@ -1,0 +1,38 @@
+[
+    {
+        "filename": "expedition.json",
+        "name": "Expedition",
+        "description": "An expedition to the wilderness",
+        "category": "PROJECT"
+    },
+    {
+        "filename": "flickering_flames.json",
+        "name": "Flickering Flames",
+        "description": "Seasonal Event",
+        "category": "PROJECT"
+    },
+    {
+        "filename": "gear_bench.json",
+        "name": "Gear Bench",
+        "description": "A basic gear bench for crafting items.",
+        "category": "WORKBENCH"
+    },
+    {
+        "filename": "explosive_bench.json",
+        "name": "Explosive Bench",
+        "description": "A basic explosive bench for crafting items.",
+        "category": "WORKBENCH"
+    },
+    {
+        "filename": "medical_lab.json",
+        "name": "Medical Lab",
+        "description": "A basic medical lab for crafting items.",
+        "category": "WORKBENCH"
+    },
+    {
+        "filename": "refiner.json",
+        "name": "Refiner",
+        "description": "A basic refiner for crafting items.",
+        "category": "WORKBENCH"
+    }
+]

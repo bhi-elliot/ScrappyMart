@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+/* Import fonts - Oswald for that military/ARC feel, Plus Jakarta Sans for clean readability */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+/* CSS Custom Properties for theming */
+:root {
+  /* ARC Raiders Orange - the signature color */
+  --arc-orange: #F94C10;
+  --arc-orange-hover: #FF6B35;
+  --arc-orange-glow: rgba(249, 76, 16, 0.3);
+  
+  /* Accent colors */
+  --arc-red: #E63946;
+  --arc-green: #52B788;
+  --arc-blue: #4A90A4;
+  
+  /* Typography */
+  --font-display: 'Oswald', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Dark theme (default) */
+.dark {
+  --bg-primary: #0A0A0A;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1A1A1A;
+  --bg-card: #141414;
+  --bg-card-hover: #1C1C1C;
+  
+  --border-primary: #2A2A2A;
+  --border-secondary: #333333;
+  --border-accent: var(--arc-orange);
+  
+  --text-primary: #FAFAFA;
+  --text-secondary: #A1A1A1;
+  --text-muted: #666666;
+  --text-inverse: #0A0A0A;
+  
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 30px var(--arc-orange-glow);
+}
+
+/* Light theme */
+.light {
+  --bg-primary: #F5F5F5;
+  --bg-secondary: #FFFFFF;
+  --bg-tertiary: #EBEBEB;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #F8F8F8;
+  
+  --border-primary: #E0E0E0;
+  --border-secondary: #D0D0D0;
+  --border-accent: var(--arc-orange);
+  
+  --text-primary: #1A1A1A;
+  --text-secondary: #666666;
+  --text-muted: #999999;
+  --text-inverse: #FFFFFF;
+  
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --shadow-glow: 0 0 30px rgba(249, 76, 16, 0.15);
+}
+
+html {
+  font-family: var(--font-body);
+  line-height: 1.6;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-secondary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--arc-orange);
+}
+
+/* Selection styling */
+::selection {
+  background: var(--arc-orange);
+  color: var(--text-inverse);
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: 2px solid var(--arc-orange);
+  outline-offset: 2px;
+}
+
+/* Checkbox custom styling */
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--border-secondary);
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+input[type="checkbox"]:hover {
+  border-color: var(--arc-orange);
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--arc-orange);
+  border-color: var(--arc-orange);
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid var(--text-inverse);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Smooth transitions for theme changes */
+* {
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+/* Disable transitions for animations */
+.no-transition * {
+  transition: none !important;
+}
+
+/* Loading animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+/* Stagger animation for list items */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out forwards;
+}
+
+/* Strikethrough animation */
+@keyframes strikethrough {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Hide scrollbar for mobile tabs */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Safe area padding for mobile */
+.safe-area-pb {
+  padding-bottom: max(0.5rem, env(safe-area-inset-bottom));
+}
+
+/* Ensure modals have solid backgrounds in both themes */
+.light .modal-bg {
+  background-color: #FFFFFF !important;
+}
+
+.dark .modal-bg {
+  background-color: #111111 !important;
+}

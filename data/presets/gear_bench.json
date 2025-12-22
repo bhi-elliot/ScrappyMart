@@ -1,0 +1,47 @@
+{
+    "name": "Gear Bench",
+    "description": "A basic gear bench for crafting items.",
+    "Category": "WORKBENCH",
+    "items": [
+        {
+            "id": 309,
+            "quantity": 25,
+            "phase": 1
+        },
+        {
+            "id": 172,
+            "quantity": 30,
+            "phase": 1
+        },
+        {
+            "id": 317,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 142,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 218,
+            "quantity": 5,
+            "phase": 2
+        },
+        {
+            "id": 233,
+            "quantity": 3,
+            "phase": 3
+        },
+        {
+            "id": 4,
+            "quantity": 5,
+            "phase": 3
+        },
+        {
+            "id": 43,
+            "quantity": 6,
+            "phase": 3
+        }
+    ]
+}

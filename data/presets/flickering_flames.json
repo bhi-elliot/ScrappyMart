@@ -1,0 +1,107 @@
+{
+    "name": "Flickering Flames",
+    "description": "Seasonal Event",
+    "Category": "PROJECT",
+    "items": [
+        {
+            "id": 143,
+            "quantity": 1,
+            "phase": 1
+        },
+        {
+            "id": 309,
+            "quantity": 25,
+            "phase": 1
+        },
+        {
+            "id": 141,
+            "quantity": 5,
+            "phase": 1
+        },
+        {
+            "id": 88,
+            "quantity": 20,
+            "phase": 1
+        },
+        {
+            "id": 87,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 255,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 233,
+            "quantity": 1,
+            "phase": 2
+        },
+        {
+            "id": 88,
+            "quantity": 50,
+            "phase": 2
+        },
+        {
+            "id": 397,
+            "quantity": 5,
+            "phase": 3
+        },
+        {
+            "id": 140,
+            "quantity": 10,
+            "phase": 3
+        },
+        {
+            "id": 179,
+            "quantity": 1,
+            "phase": 3
+        },
+        {
+            "id": 88,
+            "quantity": 60,
+            "phase": 3
+        },
+        {
+            "id": 95,
+            "quantity": 2,
+            "phase": 4
+        },
+        {
+            "id": 181,
+            "quantity": 10,
+            "phase": 4
+        },
+        {
+            "id": 487,
+            "quantity": 2,
+            "phase": 4
+        },
+        {
+            "id": 88,
+            "quantity": 60,
+            "phase": 4
+        },
+        {
+            "id": 287,
+            "quantity": 7,
+            "phase": 5
+        },
+        {
+            "id": 196,
+            "quantity": 2,
+            "phase": 5
+        },
+        {
+            "id": 289,
+            "quantity": 2,
+            "phase": 5
+        },
+        {
+            "id": 88,
+            "quantity": 70,
+            "phase": 5
+        }
+    ]
+}
