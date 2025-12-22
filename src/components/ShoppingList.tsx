@@ -1,6 +1,6 @@
 import React, { useState, useMemo, useRef, useEffect, useCallback } from 'react';
 import { Layout } from './Layout';
-import { useMultiList, type PresetFile, type ShoppingListCategory } from '../hooks/useMultiList';
+import { useMultiList, type PresetFile } from '../hooks/useMultiList';
 import { getAllItems, type Item } from '../data/items';
 import { ItemCard, ItemRow } from './ItemCard';
 import { Tutorial, useTutorial } from './Tutorial';
@@ -20,12 +20,10 @@ import {
     Edit3,
     FolderPlus,
     FileDown,
-    FileUp,
     Download,
     Upload,
     ChevronDown,
     ChevronRight,
-    GripVertical,
     FolderOpen,
     RefreshCw,
     Heart,
@@ -34,7 +32,7 @@ import {
     Github
 } from 'lucide-react';
 import { clsx } from 'clsx';
-import { AnimatePresence, motion, Reorder } from 'framer-motion';
+import { AnimatePresence, motion } from 'framer-motion';
 import { QRCodeSVG } from 'qrcode.react';
 
 type ViewMode = 'list' | 'cards';

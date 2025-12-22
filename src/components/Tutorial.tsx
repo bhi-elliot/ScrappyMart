@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { 
     X, 
@@ -566,7 +566,7 @@ export function useTutorial() {
         // 2. Visiting a shared link (has #d= in URL)
         return !hasCompleted && !isSharedLink;
     });
-    const [isLoading, setIsLoading] = useState(false); // No longer loading since we check synchronously
+    const isLoading = false; // No longer loading since we check synchronously
 
     // Keep this for any edge cases
     useEffect(() => {
