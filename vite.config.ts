@@ -7,13 +7,25 @@ import { copyFileSync, mkdirSync, readdirSync, existsSync } from 'fs'
 const copyDataPlugin = () => ({
   name: 'copy-data',
   writeBundle() {
-    const srcDir = resolve(__dirname, 'data/images')
-    const destDir = resolve(__dirname, 'dist/data/images')
+    // Copy images
+    const imagesSrcDir = resolve(__dirname, 'data/images')
+    const imagesDestDir = resolve(__dirname, 'dist/data/images')
     
-    if (existsSync(srcDir)) {
-      mkdirSync(destDir, { recursive: true })
-      readdirSync(srcDir).forEach(file => {
-        copyFileSync(resolve(srcDir, file), resolve(destDir, file))
+    if (existsSync(imagesSrcDir)) {
+      mkdirSync(imagesDestDir, { recursive: true })
+      readdirSync(imagesSrcDir).forEach(file => {
+        copyFileSync(resolve(imagesSrcDir, file), resolve(imagesDestDir, file))
+      })
+    }
+
+    // Copy presets
+    const presetsSrcDir = resolve(__dirname, 'data/presets')
+    const presetsDestDir = resolve(__dirname, 'dist/data/presets')
+    
+    if (existsSync(presetsSrcDir)) {
+      mkdirSync(presetsDestDir, { recursive: true })
+      readdirSync(presetsSrcDir).forEach(file => {
+        copyFileSync(resolve(presetsSrcDir, file), resolve(presetsDestDir, file))
       })
     }
   }
