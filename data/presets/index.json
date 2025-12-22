@@ -34,5 +34,24 @@
         "name": "Refiner",
         "description": "A basic refiner for crafting items.",
         "category": "WORKBENCH"
+    },
+    {
+        "filename": "gunsmith_bench.json",
+        "name": "Gunsmith Bench",
+        "description": "A basic gunsmith bench for crafting items.",
+        "category": "WORKBENCH"
+    },
+    {
+        "filename": "utility_station.json",
+        "name": "Utility Station",
+        "description": "A basic utility station for crafting items.",
+        "category": "WORKBENCH"
+    },
+    {
+        "filename": "scrappy.json",
+        "name": "Scrappy",
+        "description": "A basic scrappy for crafting items.",
+        "category": "WORKBENCH"
     }
+
 ]

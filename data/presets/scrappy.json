@@ -1,0 +1,52 @@
+{
+    "name": "SCRAPPY",
+    "description": "Exported from Scrappy Mart",
+    "Category": "WORKBENCH",
+    "items": [
+        {
+            "id": 251,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 23,
+            "quantity": 3,
+            "phase": 2
+        },
+        {
+            "id": 137,
+            "quantity": 1,
+            "phase": 1
+        },
+        {
+            "id": 319,
+            "quantity": 6,
+            "phase": 3
+        },
+        {
+            "id": 298,
+            "quantity": 6,
+            "phase": 3
+        },
+        {
+            "id": 91,
+            "quantity": 1,
+            "phase": 3
+        },
+        {
+            "id": 287,
+            "quantity": 12,
+            "phase": 4
+        },
+        {
+            "id": 474,
+            "quantity": 3,
+            "phase": 4
+        },
+        {
+            "id": 23,
+            "quantity": 12,
+            "phase": 2
+        }
+    ]
+}

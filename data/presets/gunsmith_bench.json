@@ -1,46 +1,46 @@
 {
-    "name": "Medical Lab",
+    "name": "GUNSMITH BENCH",
     "description": "Exported from Scrappy Mart",
     "Category": "WORKBENCH",
     "items": [
         {
-            "id": 172,
-            "quantity": 50,
-            "phase": 1
-        },
-        {
-            "id": 24,
-            "quantity": 6,
-            "phase": 1
-        },
-        {
-            "id": 112,
-            "quantity": 2,
+            "id": 365,
+            "quantity": 3,
             "phase": 2
         },
         {
-            "id": 141,
+            "id": 275,
             "quantity": 5,
             "phase": 2
         },
         {
-            "id": 448,
+            "id": 486,
             "quantity": 8,
             "phase": 2
         },
         {
-            "id": 364,
+            "id": 354,
+            "quantity": 30,
+            "phase": 1
+        },
+        {
+            "id": 281,
+            "quantity": 20,
+            "phase": 1
+        },
+        {
+            "id": 363,
             "quantity": 3,
             "phase": 3
         },
         {
-            "id": 14,
-            "quantity": 8,
+            "id": 5,
+            "quantity": 5,
             "phase": 3
         },
         {
-            "id": 428,
-            "quantity": 5,
+            "id": 371,
+            "quantity": 4,
             "phase": 3
         }
     ]

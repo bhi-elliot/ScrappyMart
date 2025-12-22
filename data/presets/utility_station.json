@@ -1,10 +1,10 @@
 {
-    "name": "Medical Lab",
+    "name": "utility station",
     "description": "Exported from Scrappy Mart",
     "Category": "WORKBENCH",
     "items": [
         {
-            "id": 172,
+            "id": 309,
             "quantity": 50,
             "phase": 1
         },
@@ -14,33 +14,33 @@
             "phase": 1
         },
         {
-            "id": 112,
+            "id": 123,
             "quantity": 2,
             "phase": 2
         },
         {
-            "id": 141,
+            "id": 142,
             "quantity": 5,
             "phase": 2
         },
         {
-            "id": 448,
-            "quantity": 8,
+            "id": 400,
+            "quantity": 6,
             "phase": 2
         },
         {
-            "id": 364,
+            "id": 194,
             "quantity": 3,
             "phase": 3
         },
         {
-            "id": 14,
-            "quantity": 8,
+            "id": 4,
+            "quantity": 5,
             "phase": 3
         },
         {
-            "id": 428,
-            "quantity": 5,
+            "id": 250,
+            "quantity": 4,
             "phase": 3
         }
     ]
