@@ -1,5 +1,5 @@
 {
-    "name": "Refinder",
+    "name": "Refiner",
     "description": "",
     "Category": "WORKBENCH",
     "items": [
@@ -34,8 +34,8 @@
             "phase": 3
         },
         {
-            "id": 286,
-            "quantity": 24,
+            "id": 25,
+            "quantity": 10,
             "phase": 3
         },
         {
