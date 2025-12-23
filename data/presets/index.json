@@ -6,6 +6,12 @@
         "category": "PROJECT"
     },
     {
+        "filename": "expeditition_2.json",
+        "name": "Expeditition 2",
+        "description": "An expedition to the wilderness",
+        "category": "PROJECT"
+    },
+    {
         "filename": "flickering_flames.json",
         "name": "Flickering Flames",
         "description": "Seasonal Event",

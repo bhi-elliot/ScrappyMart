@@ -1,0 +1,87 @@
+{
+    "name": "Expeditition 2",
+    "description": "Exported from Scrappy Mart",
+    "Category": "CUSTOM",
+    "items": [
+        {
+            "id": 281,
+            "quantity": 150,
+            "phase": 1
+        },
+        {
+            "id": 309,
+            "quantity": 200,
+            "phase": 1
+        },
+        {
+            "id": 24,
+            "quantity": 80,
+            "phase": 1
+        },
+        {
+            "id": 417,
+            "quantity": 15,
+            "phase": 1
+        },
+        {
+            "id": 141,
+            "quantity": 35,
+            "phase": 2
+        },
+        {
+            "id": 489,
+            "quantity": 25,
+            "phase": 2
+        },
+        {
+            "id": 142,
+            "quantity": 20,
+            "phase": 2
+        },
+        {
+            "id": 110,
+            "quantity": 4,
+            "phase": 2
+        },
+        {
+            "id": 255,
+            "quantity": 4,
+            "phase": 3
+        },
+        {
+            "id": 44,
+            "quantity": 30,
+            "phase": 3
+        },
+        {
+            "id": 385,
+            "quantity": 10,
+            "phase": 3
+        },
+        {
+            "id": 148,
+            "quantity": 1,
+            "phase": 3
+        },
+        {
+            "id": 193,
+            "quantity": 5,
+            "phase": 4
+        },
+        {
+            "id": 4,
+            "quantity": 5,
+            "phase": 4
+        },
+        {
+            "id": 236,
+            "quantity": 3,
+            "phase": 4
+        },
+        {
+            "id": 250,
+            "quantity": 3,
+            "phase": 4
+        }
+    ]
+}
